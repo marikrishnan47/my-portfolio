@@ -84,7 +84,7 @@
     background-position: right;
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
 
 }
 
@@ -773,6 +773,7 @@ padding: 10px;
     display: flex;
     margin-bottom: 20px;
     padding: 20px;
+    width: 20rem;
 }
 .cont-icon p{
     font-size: 24px;
@@ -908,9 +909,10 @@ footer span{
         .col-6{
             width: 100%;
         }
-        .col-6{
+        .Contact .col-6{
             width: 100%;
         }
+      
         
 }
 @media  (min-width: 768px) and (max-width: 1024px) {
@@ -955,7 +957,21 @@ footer span{
     .col-6 img{
         width: 100%;
     }
-    .col-6{
+    .Contact .col-6{
         width: 50%;
     }
+}
+
+.owl-carousel .brand .carousel .owl-theme .iconify{
+    font-size: 40px;
+}
+.owl-carousel.owl-drag .owl-item {
+    font-size: 80px;
+    text-align: center;
+    color: #fff;
+}
+.owl-carousel.owl-drag .owl-item:hover{
+   
+    opacity: 0.7;
+    transition: all ease 0.5s;
 }
