@@ -295,7 +295,9 @@
     }
     .main  { 
          background-size: right;
-         background-position-x: right;
+         background-position-x: left;
+         background-image: linear-gradient(to right, rgba(0,0,0,0.4), rgba(0,0,0,0.4)),url('image/photo1.jpg');
+
     }
     
 .about-con h6 {
